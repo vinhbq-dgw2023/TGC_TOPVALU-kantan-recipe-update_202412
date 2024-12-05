@@ -24,7 +24,7 @@ $(function() {
 		})
 		$('.js-closeMenu').on('click',function(e){
 			e.preventDefault();
-			$(this).parents('#nav-anchor').removeClass('on');
+			$(this).parents('#nav-anchor').removeClass('on onpc');
 		})
         $('#main_bxslider').slick({
 			// autoplay: true,
@@ -198,6 +198,15 @@ $(function() {
 		
 		}
 		resizeHeightProductName()
+
+		function timer() {
+			const today = new Date();
+			const targetDate = new Date(2024, 11, 26); 
+			if (today >= targetDate) {
+				$('.icon-tag-new').hide(); 
+			}
+		}
+		timer();
     });
 
 });
