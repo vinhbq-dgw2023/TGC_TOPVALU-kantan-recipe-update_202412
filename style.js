@@ -20,7 +20,7 @@ $(function() {
     $(document).ready(function() {
 		$('.js-openMenu').on('click',function(e){
 			e.preventDefault();
-			$(this).parents('#nav-anchor').addClass('on');
+			$(this).parents('#nav-anchor').toggleClass('on');
 		})
 		$('.js-closeMenu').on('click',function(e){
 			e.preventDefault();

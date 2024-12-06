@@ -653,7 +653,7 @@ button.slick-arrow.slick-prev {
 }
 
 #nav-anchor.on .nav-header {
-    display: none;
+    /* display: none; */
 }
 @media screen and (min-width: 768px) {
     #nav-anchor.onpc .nav-body,
@@ -662,7 +662,7 @@ button.slick-arrow.slick-prev {
     }
     
     #nav-anchor.onpc .nav-header {
-        display: none;
+        /* display: none; */
     }
 }
 .nav-body .nav-title {
@@ -696,14 +696,14 @@ button.slick-arrow.slick-prev {
     line-height: 1;
 }
 .nav-body ul>li::after {
-    content: "";
+    /* content: "";
     width: 13px;
     height: 11px;    
     background: url(/assets/group/group-4/20241001_kantanrecipe/icon_arrow_down.png) center no-repeat;
     background-size: contain;
     position: absolute;
     right: 0;
-    top: 1.2rem;
+    top: 1.2rem; */
 }
 .icon-tag-new {
     width: 5rem;
