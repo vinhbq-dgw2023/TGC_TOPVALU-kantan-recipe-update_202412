@@ -249,13 +249,13 @@ body {
 }
 .slideContent .slide_content_title {
     color: #FF4C00;
-    font-size: 22px;
+    font-size: 27px;
     line-height: 25px;
     font-weight: bold;
     text-align: center;
     border-top: 2px solid #FF4C00;
     border-bottom: 2px solid #FF4C00;
-    padding: 12px 0 11px;
+    padding: 11px 0 10px;
     letter-spacing: 10px;
 }
 .slide_oldContent {
@@ -286,7 +286,7 @@ div.slide_content_title .slide_content_btn.close {
     width: 40px;
     position: absolute;
     top: 50%;
-    right: 2rem;
+    right: 26rem;
     transform: translateY(-50%);
     margin: 0;
     border-radius: 99px;
